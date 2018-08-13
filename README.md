@@ -6,7 +6,9 @@ But in some sites, it is detected & then they force the user to disable ad-block
 
 To make sure I don't see those annoying ads ever again, I made some userscripts for myself.
 
-To use them install [TamperMonkey](https://tampermonkey.net/) & then use the given scripts to remove all the ads from respective anti-adblock site
+To use them install [TamperMonkey](https://tampermonkey.net/) & then use the given scripts to remove all the ads from respective anti-adblock site.
+
+To install a script(*.user.js), open the script page, then click on the __"Raw"__ button.
 
 __NOTE :__ Each script is limited to its respective website but can be modified to support any other site.
 

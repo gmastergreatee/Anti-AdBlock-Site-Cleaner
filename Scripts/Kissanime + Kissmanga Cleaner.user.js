@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kissanime + Kissmanga Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1
+// @version      0.1.0.1
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *kissanime.ru*
