@@ -31,7 +31,7 @@ BTW, the best extension I used that could grab almost all of the streams was tha
 
 - `9xbuddy.app`
 - `anitubebr.com`
-- `gledalica.com`
+- `gledalica.com` - (not required), just use any ad-block & follow steps as shown [here](https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner/issues/1)
 - `kimcartoon.me`
 - `kissanime.ru`
 - `kissasian.sh`
