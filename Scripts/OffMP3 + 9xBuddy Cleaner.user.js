@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         OffMP3 + 9xBuddy Cleaner
-// @namespace    https://gist.github.com/gmastergreatee/27308f6587868ccae37fe5a3aaf301ab
+// @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
 // @version      0.1
 // @description  try to take over the world!
 // @author       gmastergreatee
