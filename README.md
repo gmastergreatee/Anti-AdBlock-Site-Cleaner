@@ -14,7 +14,7 @@ To install a script(*.user.js), open the script page, then click on the __"Raw"_
 __NOTE :__ Each script is limited to its respective website but can be modified to support any other site.
 
 Some of the other helpful extensions that I use are :
-- adf.ly KILLER                          - Helps in bypassing url-shorteners(very helpful for downloading video links from todaytvseries2.com)
+- adf.ly KILLER                          - Helps in bypassing url-shorteners(very helpful for downloading video links from `todaytvseries2.com`)
 - Pop up blocker for Chrome              - Blocks all popups & also asks the user if they want them to be shown
 - Adblock Plus                           - Want some explanation? Read the name again!
 - OFFMP4                                 - Extension by 9xbuddy to get direct download links from a multitude of video/audio websites
@@ -26,3 +26,15 @@ And yea, I use EagleGet coz it has one of the most stable download system I ever
 and grabs all the video/audio links for me.
 
 BTW, the best extension I used that could grab almost all of the streams was that of xTream Download Manager, but I kinda hated its GUI program(more like made for touch-screens - huge buttons & stuff)
+
+### Ready-made Scripts for
+
+- `9xbuddy.app`
+- `anitubebr.com`
+- `gledalica.com`
+- `kimcartoon.me`
+- `kissanime.ru`
+- `kissasian.sh`
+- `kissmanga.com`
+- `offmp3.app`
+- `overclockers.ru`
