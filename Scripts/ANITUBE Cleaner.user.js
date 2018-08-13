@@ -6,7 +6,7 @@
 // @author       gmastergreatee
 // @include      *anitubebr.com*
 // @grant        none
-// @require http://code.jquery.com/jquery-3.3.1.min.js
+// @require      http://code.jquery.com/jquery-3.3.1.min.js
 // ==/UserScript==
 
 $(document).ready(function () {

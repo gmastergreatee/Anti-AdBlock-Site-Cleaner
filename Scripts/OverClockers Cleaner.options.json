@@ -1,1 +1,43 @@
-{"options":{"check_for_updates":true,"comment":null,"compatopts_for_requires":true,"compat_wrappedjsobject":false,"compat_metadata":false,"compat_foreach":false,"compat_arrayleft":false,"compat_uW_gmonkey":false,"compat_forvarin":false,"noframes":null,"awareOfChrome":false,"run_at":null,"override":{"use_includes":[],"orig_includes":["*overclockers.ru*"],"merge_includes":true,"use_matches":[],"orig_matches":[],"merge_matches":true,"use_excludes":[],"orig_excludes":[],"merge_excludes":true,"use_connects":[],"merge_connects":true,"use_blockers":[],"orig_run_at":"document-idle","orig_noframes":null,"orig_connects":[]}},"settings":{"enabled":true,"position":5},"meta":{"name":"OverClockers Cleaner","uuid":"ea96fb61-a35b-4315-a919-fe3df36d2ef8","modified":1534157134908,"file_url":"https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner/raw/master/Scripts/OverClockers%20Cleaner.user.js"}}
+{
+    "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+            "use_includes": [],
+            "orig_includes": ["*overclockers.ru*"],
+            "merge_includes": true,
+            "use_matches": [],
+            "orig_matches": [],
+            "merge_matches": true,
+            "use_excludes": [],
+            "orig_excludes": [],
+            "merge_excludes": true,
+            "use_connects": [],
+            "merge_connects": true,
+            "use_blockers": [],
+            "orig_run_at": "document-idle",
+            "orig_noframes": null,
+            "orig_connects": []
+        }
+    },
+    "settings": {
+        "enabled": true,
+        "position": 5
+    },
+    "meta": {
+        "name": "OverClockers Cleaner",
+        "uuid": "ea96fb61-a35b-4315-a919-fe3df36d2ef8",
+        "modified": 1534157134908,
+        "file_url": "https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner/raw/master/Scripts/OverClockers%20Cleaner.user.js"
+    }
+}
