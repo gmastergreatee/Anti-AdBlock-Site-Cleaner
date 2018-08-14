@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         KissAsian + KimCartoon Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.3
+// @version      0.1.0.4
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *kissasian.sh*
@@ -50,8 +50,8 @@ $(document).ready(function () {
 
     function doWork() {
         // write anything below to remove from the DOM
-        remove('iframe:not(#divContentVideo>iframe:first-child()),.mgbox,.divCloseBut,.kcAds1,#hideAds,.fluid_nonLinear_middle');
-        display('#divContentVideo>iframe:first-child()');
+        remove('iframe:not(#divContentVideo>iframe:first-child()),.mgbox,.divCloseBut,#videoAd,.kcAds1,#hideAds,.fluid_nonLinear_middle');
+        display('#divContentVideo>iframe:first-child(),video,#divContentVideo>div');
         html('#divDownload', '<b>Use <a href="http://www.eagleget.com/">EagleGet</a>/<a href="https://9xbuddy.app/">9xbuddy</a> to get download links</b>');
     }
 
