@@ -52,7 +52,7 @@ $(document).ready(function () {
         // write anything below to remove from the DOM
         remove('iframe:not(#divContentVideo>iframe:first-child()),.mgbox,.divCloseBut,#videoAd,.kcAds1,#hideAds,.fluid_nonLinear_middle');
         display('#divContentVideo>iframe:first-child(),video,#divContentVideo>div');
-        html('#divDownload', '<b>Use <a href="http://www.eagleget.com/">EagleGet</a>/<a href="https://9xbuddy.app/">9xbuddy</a> to get download links</b>');
+        html('#divDownload', '<b>Use <a href="http://www.eagleget.com/">EagleGet</a>/<a href="https://offmp4.app/">OffMP4</a> to get download links</b>');
     }
 
     doLoop(0, 200);
