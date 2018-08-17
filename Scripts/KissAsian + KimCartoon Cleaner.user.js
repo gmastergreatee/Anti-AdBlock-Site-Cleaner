@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         KissAsian + KimCartoon Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.6
+// @version      0.1.0.7
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *kissasian.sh*
@@ -51,11 +51,11 @@ $(document).ready(function () {
 
     function doWork() {
         // write anything below to remove from the DOM
-        remove('iframe:not([allowfullscreen=true]),.mgbox,.divCloseBut');
+        remove('iframe:not([allowfullscreen=true],[role=presentation],[title="recaptcha challenge"]),.mgbox,.divCloseBut');
         if (window.location.href.includes('mp4upload.com/'))
             remove('#overlay');
         if (window.location.href.includes('kimcartoon.me/'))
-            remove('.kcAds1,#hideAds');
+            remove('.kcAds1,#hideAds,.imonomy_footer');
         display('#divContentVideo>iframe:first-child(),video,#divContentVideo>div');
         html('#divDownload', '<b>Use <a href="http://www.eagleget.com/">EagleGet</a>/<a href="https://offmp4.app/">OffMP4</a> to get download links</b>');
     }

@@ -41,3 +41,5 @@ BTW, the best extension I used that could grab almost all of the streams was tha
 
 ### In case ads are removed with a delay
 ![how_inc_speed_loading](https://user-images.githubusercontent.com/17880848/44036710-18c9f3de-9f30-11e8-900a-ea00836ac99a.gif)
+
+__Feel free to request for any interesting site where ad-block doesn't work__
