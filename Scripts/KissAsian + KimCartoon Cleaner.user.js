@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         KissAsian + KimCartoon Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.7
+// @version      0.1.0.8
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *kissasian.sh*
@@ -25,7 +25,7 @@ $(document).ready(function () {
     function remove(el) {
         try {
             var $elm = $(el);
-            if ($elm) {
+            if ($elm.length > 0) {
                 $elm.remove();
             }
         } catch (err) {}
@@ -34,7 +34,7 @@ $(document).ready(function () {
     function display(el) {
         try {
             var $elm = $(el);
-            if ($elm) {
+            if ($elm.length > 0) {
                 $elm.css('display', 'inherit');
             }
         } catch (err) {}
@@ -43,7 +43,7 @@ $(document).ready(function () {
     function html(el, txt) {
         try {
             var $elm = $(el);
-            if ($elm) {
+            if ($elm.length > 0) {
                 $elm.html(txt);
             }
         } catch (err) {}

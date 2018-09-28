@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OverClockers Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1
+// @version      0.1.0.1
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *overclockers.ru*
@@ -22,7 +22,7 @@ $(document).ready(function () {
     function remove(el) {
         try {
             var $elm = $(el);
-            if ($elm) {
+            if ($elm.length > 0) {
                 $elm.remove();
             }
         } catch (err) {}

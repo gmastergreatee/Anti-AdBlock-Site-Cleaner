@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kissanime + Kissmanga Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.7
+// @version      0.1.0.8
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *kissanime.ru*
@@ -26,7 +26,7 @@ $(document).ready(function () {
     function remove(el) {
         try {
             var $elm = $(el);
-            if ($elm) {
+            if ($elm.length > 0) {
                 $elm.remove();
             }
         } catch (err) {}
@@ -40,17 +40,17 @@ $(document).ready(function () {
         if (window.location.href.indexOf('rapidvideo') > 0) {
             $prevVid = $($('[src="/Content/images/previous.png"]').parents('a')[0]);
             $nextVid = $($('[src="/Content/images/next.png"]').parents('a')[0]);
-            if ($nextVid) {
+            if ($nextVid.length > 0) {
                 if (!$nextVid.attr('href').endsWith('rapidvideo'))
                     $nextVid.attr('href', $nextVid.attr('href') + '&s=rapidvideo');
             }
-            if ($prevVid) {
+            if ($prevVid.length > 0) {
                 if (!$prevVid.attr('href').endsWith('rapidvideo'))
                     $prevVid.attr('href', $prevVid.attr('href') + '&s=rapidvideo');
             }
 
             $episode_picker = $('#selectEpisode');
-            if ($episode_picker) {
+            if ($episode_picker.length > 0) {
                 $episode_picker.attr('id', 'selectEpiside_modified');
                 $('#selectEpiside_modified').change(function () {
                     location.href = 'http://kissanime.ru/Anime/Dragon-Ball-Kai-2014-Dub/' + $('#selectEpiside_modified').val() + '&s=rapidvideo';
