@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kissanime + Kissmanga Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.2
+// @version      0.1.0.3
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *kissanime.ru*
@@ -32,7 +32,7 @@ $(document).ready(function () {
     function doWork() {
         // write anything below to remove from the DOM
         if (!document.title.includes('Please wait 5'))
-            remove('iframe:not(#ifrmVast),#adsIfrme7,#adsIfrme6,#adsIfrme5,#adsIfrme4,#adsIfrme3,#adsIfrme2,#adsIfrme8,#adsIfrme9,body>div:not([class],[id]),body>div>div>a,.adsPositioning');
+            remove('iframe:not(#ifrmVast,#my_video_1),#adsIfrme7,#adsIfrme6,#adsIfrme5,#adsIfrme4,#adsIfrme3,#adsIfrme2,#adsIfrme8,#adsIfrme9,body>div:not([class],[id]),body>div>div>a,.adsPositioning');
     }
 
     doLoop(0, 200)
