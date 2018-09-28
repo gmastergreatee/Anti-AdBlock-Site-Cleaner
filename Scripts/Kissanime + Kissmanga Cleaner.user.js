@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kissanime + Kissmanga Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.3
+// @version      0.1.0.4
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *kissanime.ru*
@@ -33,6 +33,18 @@ $(document).ready(function () {
         // write anything below to remove from the DOM
         if (!document.title.includes('Please wait 5'))
             remove('iframe:not(#ifrmVast,#my_video_1),#adsIfrme7,#adsIfrme6,#adsIfrme5,#adsIfrme4,#adsIfrme3,#adsIfrme2,#adsIfrme8,#adsIfrme9,body>div:not([class],[id]),body>div>div>a,.adsPositioning');
+        if (window.location.href.indexOf('rapidvideo') > 0) {
+            $prevVid = $($('[src="/Content/images/previous.png"]').parents('a')[0]);
+            $nextVid = $($('[src="/Content/images/next.png"]').parents('a')[0]);
+            if ($nextVid) {
+                if (!$nextVid.attr('href').endsWith('rapidvideo'))
+                    $nextVid.attr('href', $nextVid.attr('href') + '&s=rapidvideo');
+            }
+            if ($prevVid) {
+                if (!$prevVid.attr('href').endsWith('rapidvideo'))
+                    $prevVid.attr('href', $prevVid.attr('href') + '&s=rapidvideo');
+            }
+        }
     }
 
     doLoop(0, 200)
