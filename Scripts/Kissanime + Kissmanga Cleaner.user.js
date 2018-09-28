@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kissanime + Kissmanga Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.4
+// @version      0.1.0.5
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *kissanime.ru*
@@ -43,6 +43,14 @@ $(document).ready(function () {
             if ($prevVid) {
                 if (!$prevVid.attr('href').endsWith('rapidvideo'))
                     $prevVid.attr('href', $prevVid.attr('href') + '&s=rapidvideo');
+            }
+
+            $episode_picker = $('#selectEpisode');
+            if ($episode_picker) {
+                $episode_picker.attr('id', 'selectEpiside_modified');
+                $('#selectEpiside_modified').change(function () {
+                    location.href = 'http://kissanime.ru/Anime/Dragon-Ball-Kai-2014-Dub/' + $('#selectEpiside_modified').val() + '&s=rapidvideo';
+                });
             }
         }
     }
