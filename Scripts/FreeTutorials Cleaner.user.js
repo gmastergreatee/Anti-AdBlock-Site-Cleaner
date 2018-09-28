@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         FreeTutorials Cleaner
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
 // @version      0.1.0.1
 // @description  try to take over the world!
 // @author       gmastergreatee
