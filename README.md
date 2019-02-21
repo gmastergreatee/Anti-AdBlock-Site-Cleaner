@@ -39,6 +39,7 @@ BTW, the best extension I used that could grab almost all of the streams was tha
 - `offmp3.app`
 - `overclockers.ru`
 - `freetutorials.us`
+- `onlinefreecourse.net`
 - `scr.cr` video-grabber(To be used by clicking on the right-click context menu on the videos page[scr.cr/watch/...])
 
 ### In case ads are removed with a delay
