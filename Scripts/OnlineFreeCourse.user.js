@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OnlineFreeCourse Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.2
+// @version      0.1.0.3
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *onlinefreecourse.net*
@@ -37,6 +37,10 @@ $(document).ready(function () {
         }
         $('.adsbygoogle').remove()
     }
+
+    $(document).on('click', '.downloadbtn', function () {
+        doLoop(0, 200);
+    });
 
     doLoop(0, 200)
 });
