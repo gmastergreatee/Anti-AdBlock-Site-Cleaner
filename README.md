@@ -31,6 +31,9 @@ BTW, the best extension I used that could grab almost all of the streams was tha
 
 - `9xbuddy.app`
 - `anitubebr.com`
+- `appnee.com`
+- `freecoursesite.com`
+- `freetutorials.us`
 - `gledalica.com` - (not required), just use any ad-block & follow steps as shown [here](https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner/issues/1), same for `filmovi24h.com`
 - `kimcartoon.me`
 - `kissanime.ru`
@@ -38,11 +41,9 @@ BTW, the best extension I used that could grab almost all of the streams was tha
 - `kissmanga.com`
 - `offmp3.app`
 - `overclockers.ru`
-- `freetutorials.us`
 - `onlinefreecourse.net`
-- `FreeCourseSite.com`
-- `Appnee.com`
 - `scr.cr` video-grabber(To be used by clicking on the right-click context menu on the videos page[scr.cr/watch/...])
+- `ttorial.com`
 
 ### In case ads are removed with a delay
 ![how_inc_speed_loading](https://user-images.githubusercontent.com/17880848/44036710-18c9f3de-9f30-11e8-900a-ea00836ac99a.gif)
