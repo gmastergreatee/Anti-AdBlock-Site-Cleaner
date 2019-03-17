@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         FreeTutorials Cleaner
+// @name         FreeTutorials/FTUForum Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.4
+// @version      0.1.0.5
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *freetutorials.us*
 // @include      *freetutorials.eu*
+// @include      *ftuforum.com*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // ==/UserScript==
