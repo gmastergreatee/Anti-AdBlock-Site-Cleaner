@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FreeTutorials/FTUForum Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.5
+// @version      0.1.0.6
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *freetutorials.us*
@@ -11,47 +11,24 @@
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // ==/UserScript==
 
-$(document).ready(function () {
-    function doLoop(counter, maxCounter) {
-        setTimeout(function () {
-            if (counter < maxCounter) {
-                doWork();
-                doLoop(counter + 1, maxCounter);
-            }
-        }, 500)
-    }
+(function() {
+    'use strict';
+    let downloadPageLink = document.getElementById('download');
+    let downloadLinkObj = document.querySelector('meta[http-equiv="refresh"]');
+    let p = document.createElement('p');
+    p.style = 'position:fixed;z-index:99;top:0;right:0;background-color:#eee;padding:10px;';
 
-    function remove(el) {
-        try {
-            var $elm = $(el);
-            if ($elm.length > 0) {
-                $elm.remove();
-            }
-        } catch (err) {}
+    if (downloadPageLink != null) {
+        let d_url = downloadPageLink.attributes['href'].value;
+        let b = document.createElement('button');
+        b.addEventListener('click', function(){
+            window.location.href = d_url;
+        });
+        p.innerHTML = '<button type="button" onclick="window.location.href=\'' + d_url + '\'">Go to Download Page</button>';
+        document.querySelector('body').append(p);
+    } else if (downloadLinkObj != null) {
+        let d_url = downloadLinkObj.attributes["content"].value.replace('20; url=', '');
+        p.innerHTML = '<h3 style="display:inline">Download Link : </h3><input type="text" value="' + d_url + '" style="display:inline" readonly><a href="' + d_url + '" style="padding-left:10px">Download (Alt+Click)</a>';
+        document.querySelector('body').append(p);
     }
-
-    function display(el) {
-        try {
-            var $elm = $(el);
-            if ($elm.length > 0) {
-                $elm.css('display', 'inherit');
-            }
-        } catch (err) {}
-    }
-
-    function html(el, txt) {
-        try {
-            var $elm = $(el);
-            if ($elm.length > 0) {
-                $elm.html(txt);
-            }
-        } catch (err) {}
-    }
-
-    function doWork() {
-        // write anything below to remove from the DOM
-        remove('.adsbygoogle');
-    }
-
-    doLoop(0, 200);
-});
+})();
