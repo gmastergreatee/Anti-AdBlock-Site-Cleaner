@@ -1,5 +1,19 @@
 # Anti-AdBlock-Site-Cleaner
 
+## Update
+__A few days back, I started using [Brave browser](https://brave.com/) and found out that its ability to block ads is truly great(one doesn't need to do anything). Moreover, it consumes a lot less RAM than Chrome and has better graphics integration(atleast on my system when I tried playing [Wormax](https://wormax.io)). Considering it's based on the same Chromium engine as that of which is used in chrome, all the extensions usable on Chrome work flawlessly on [Brave](https://brave.com/) too.__
+
+__Everyone should give it atleast one try.__
+
+### List of extensions I now use (in Brave)
+- [Free VPN](https://chrome.google.com/webstore/detail/free-vpn-the-fastest-vpn/nkomfibbgccdjcahcpleidblgknecfhh)
+- [Popup Blocker](https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche)
+- [Miner Block](https://chrome.google.com/webstore/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl)
+- [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
+__Thanks!!!__
+
+---
+
 Well, most of the sites nowadays have ads. And to remove them, Ad-Block Plus works really great.
 
 But in some sites, it is detected & then they force the user to disable ad-block to view their site.
