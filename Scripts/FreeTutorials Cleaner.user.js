@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FreeTutorials/FTUForum Cleaner
 // @namespace    https://github.com/gmastergreatee/Anti-AdBlock-Site-Cleaner
-// @version      0.1.0.7
+// @version      0.1.0.8
 // @description  try to take over the world!
 // @author       gmastergreatee
 // @include      *ftuudemy.com*
@@ -28,10 +28,9 @@
             window.location.href = d_url;
         });
         p.innerHTML = '<button type="button" onclick="window.location.href=\'' + d_url + '\'">Go to Download Page</button>';
-        document.querySelector('body').append(p);
     } else if (downloadLinkObj != null) {
         let d_url = downloadLinkObj.attributes["content"].value.replace('20; url=', '');
         p.innerHTML = '<h3 style="display:inline">Download Link : </h3><input type="text" value="' + d_url + '" style="display:inline" readonly><a href="' + d_url + '" style="padding-left:10px">Download (Alt+Click)</a>';
-        document.querySelector('body').append(p);
     }
+    document.querySelector('body').append(p);
 })();
