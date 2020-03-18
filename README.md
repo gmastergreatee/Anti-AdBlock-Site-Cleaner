@@ -6,7 +6,7 @@ __A few days back, I started using [Brave browser](https://brave.com/) and found
 __Everyone should give it atleast one try.__
 
 ### List of extensions I now use (in Brave)
-- [Free VPN](https://chrome.google.com/webstore/detail/free-vpn-the-fastest-vpn/nkomfibbgccdjcahcpleidblgknecfhh)
+- [1clickVPN](https://chrome.google.com/webstore/detail/1clickvpn-free-vpn-for-ch/fcfhplploccackoneaefokcmbjfbkenj)
 - [Popup Blocker](https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche)
 - [Miner Block](https://chrome.google.com/webstore/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl)
 - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
