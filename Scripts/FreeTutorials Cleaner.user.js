@@ -16,6 +16,21 @@
 
 (function() {
     'use strict';
+    let cc = 0;
+    function rem() {
+        setTimeout(() => {
+            let ads = document.querySelectorAll('.adsbygoogle');
+            for (let ii = 0; ii < ads.length; ii++) {
+                ads[ii].remove();
+            }
+            cc++;
+            if (cc < 40) {
+                rem();
+            }
+        }, 500);
+    }
+    rem();
+
     let downloadPageLink = document.getElementById('download');
     let downloadLinkObj = document.querySelector('meta[http-equiv="refresh"]');
     let p = document.createElement('p');
