@@ -10,6 +10,7 @@
 // @include      *ftuforums.com*
 // @include      *freetutorialsus.com*
 // @include      *freecoursessites.com*
+// @include      *courseforfree.com*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // ==/UserScript==
